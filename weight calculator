@@ -1,0 +1,41 @@
+#include <iostream>
+
+int main() {
+	double weight;
+	std::cout << " what is ur weight?";
+	std::cin >> weight;
+	int planetnum;
+	std::cout << " 1. mercury \n ";
+	std::cout << " 2. venus \n ";
+	std::cout << " 3. mars \n ";
+	std::cout << " 4. jupiter  \n ";
+	std::cout << " 5. sturn \n "; 
+	std::cout << " 6. uranus  \n ";
+	std::cout << " 7. neptune  \n "; 
+	std::cout << " enter the number of the planet plaease ";
+	std::cin >> planetnum;
+	if (planetnum == 1 || planetnum == 3)
+	{
+		std::cout << "your weight on this planet =" << weight * 0.38;
+	}
+	if (planetnum == 2)
+	{
+		std::cout << "your weight on this planet =" << weight * 0.91;
+	}
+	if (planetnum == 4)
+	{
+		std::cout << "your weight on this planet =" << weight * 2.34;
+	}
+	if (planetnum == 5)
+	{
+		std::cout << "your weight on this planet =" << weight * 1.06;
+	}
+	if (planetnum == 6)
+	{
+		std::cout << "your weight on this planet =" << weight * 0.92;
+	}
+	if (planetnum == 7)
+	{
+		std::cout << "your weight on this planet =" << weight * 1.19;
+	}
+}
